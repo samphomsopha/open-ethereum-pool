@@ -1,6 +1,6 @@
 {
 	"threads": 2,
-	"coin": "eth",
+	"coin": "exp",
 	"name": "main",
 
 	"proxy": {
@@ -81,9 +81,9 @@
 	},
 
 	"unlocker": {
-		"enabled": false,
+		"enabled": true,
 		"poolFee": 1.0,
-		"poolFeeAddress": "",
+		"poolFeeAddress": "0xbf9f1a258ae06af0a391b9dc7f0a12a4ee6a6f1e",
 		"donate": true,
 		"depth": 120,
 		"immatureDepth": 20,
@@ -108,7 +108,7 @@
 	},
 
 	"newrelicEnabled": false,
-	"newrelicName": "MyEtherProxy",
+	"newrelicName": "MyExpanseProxy",
 	"newrelicKey": "SECRET_KEY",
 	"newrelicVerbose": false
 }
